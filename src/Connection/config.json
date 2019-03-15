@@ -1,6 +1,6 @@
 {
   "url_tm": "https://transaction-api.cleveraim.com/v1.0/",
-  "url": "https://api.ceveraim.com/v1.0/",
+  "url": "https://api.cleveraim.com/v1.0/",
   "connection_timeout": "100",
   "content_type": "application/json"
 }
