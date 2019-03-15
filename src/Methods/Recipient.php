@@ -1,24 +1,24 @@
 <?php
 
-	namespace CleverMonitor\SmtpApi\Methods;
+namespace CleverMonitor\SmtpApi\Methods;
+
+use CleverMonitor\SmtpApi\Exceptions\NotImplementedException;
+
+/**
+ * CleverMonitor Developers
+ *
+ * Recipient
+ * @author CleverMonitor <support@clevermonitor.com>
+ */
+class Recipient extends Base {
 
 	/**
-	 * CleverMonitor Developers
-	 *
-	 * Recipient
-	 * @author CleverMonitor <support@clevermonitor.com>
+	 * Statistics of selected recipient
+	 * @param string $email
+	 * @return \CleverMonitor\SmtpApi\Connection\Response
 	 */
-
-	class Recipient extends Base {
-		
-		/**
-		 * Statistics of selected recipient
-		 * @param string $email
-		 * @return \CleverMonitor\SmtpApi\Connection\Response
-		 */
-		public function getStats($email) {
-			$curl = $this->connection->get('recipient/'.$email.'/stats');
-			return $curl;
-		}
-		
+	public function getStats($email) {
+		throw new NotImplementedException();
 	}
+
+}

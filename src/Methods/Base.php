@@ -1,26 +1,26 @@
-<?php	namespace CleverMonitor\SmtpApi\Methods;
+<?php namespace CleverMonitor\SmtpApi\Methods;
 
-	use CleverMonitor\SmtpApi\Connection\Connection;
+use CleverMonitor\SmtpApi\Connection\Connection;
+
+/**
+ * CleverMonitor Developers
+ *
+ * BASE
+ * @author CleverMonitor <support@clevermonitor.com>
+ */
+abstract class Base {
 
 	/**
-	 * CleverMonitor Developers
-	 *
-	 * BASE
-	 * @author CleverMonitor <support@clevermonitor.com>
+	 * Connection
+	 * @var Connection
 	 */
-	abstract class Base {
+	protected $connection;
 
-		/**
-		 * Connection
-		 * @var Connection
-		 */
-		protected $connection;
-
-		public function __construct($id, $token) {
-			$this->connection = new Connection($id, $token);
-		}
-
-		public function getConnection() {
-			return $this->connection;
-		}
+	public function __construct($token) {
+		$this->connection = new Connection($token);
 	}
+
+	public function getConnection() {
+		return $this->connection;
+	}
+}

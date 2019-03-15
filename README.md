@@ -1,5 +1,6 @@
-# CleverMonitor PHP SMTP API Client
-REST API for your applications
+`ABANDONED` see new version [here](http://github.com/clevermonitor/cleveraim-tm).
+# Compatible version of CleverAIM TM API Client SDK
+from version 2.0
 
 Requirements
 ------------
@@ -17,9 +18,9 @@ $ composer require clevermonitor/smtpapi
 Documentation
 ------------
 
-Learn more in the [documentation](https://smtpapi.clevermonitor.com).
+Learn more in the [documentation](https://docs.cleveraim.com).
 
 
 -----
 
-Homepage [http://www.clevermonitor.com](http://www.clevermonitor.com) and repository [http://github.com/clevermonitor/smtpapi](http://github.com/clevermonitor/smtpapi).
+Homepage [http://www.cleveraim.com](http://www.cleveraim.com) and repository [http://github.com/clevermonitor/smtpapi](http://github.com/clevermonitor/smtpapi).

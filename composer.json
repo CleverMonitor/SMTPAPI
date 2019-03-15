@@ -1,8 +1,8 @@
 {
 	"name": "clevermonitor/smtpapi",
-	"description": "CleverMonitor PHP SMTP API Client",
-	"keywords": ["CleverMonitor", "email", "newsletter", "api", "mailing", "mail", "clever"],
-	"homepage": "http://clevermonitor.com",
+	"description": "Compatible version of PHP SMTP API Client for CleverAIM",
+	"keywords": ["CleverMonitor", "CleverAIM", "email", "newsletter", "api", "mailing", "mail", "clever"],
+	"homepage": "http://cleveraim.com",
 	"license": "BSD-3-Clause",
 	"authors": [
 		{
@@ -12,7 +12,7 @@
 	],
 	"support": {
 		"email": "support@clevermonitor.com",
-		"docs": "https://smtpapi.clevermonitor.com"
+		"docs": "https://docs.cleveraim.com"
 	},
 	"require": {
 		"php": ">=5.6.0",
